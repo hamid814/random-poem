@@ -1,0 +1,48 @@
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+h3 {
+  text-align: center;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.poet-btn {
+  width: 75%;
+  margin: 10px auto;
+  padding: 10px;
+  background: #fbd0a6;
+  text-align: center;
+  display: block;
+}
+
+.poem {
+  border: 1px solid #222;
+  display: inline-block;
+  padding: 15px;
+}
+
+.reload-btn {
+  display: block;
+  background: transparent;
+  border: 1px solid #333333;
+  padding: 5px;
+  width: 100px;
+  margin-top: 20px;
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 100%;
+  }
+}
